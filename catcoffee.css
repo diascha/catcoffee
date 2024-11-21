@@ -1,0 +1,227 @@
+html{
+    cursor: pointer;
+    font-family: "Bergamasco.ttf";
+    scroll-behavior: smooth;
+    background-color: rgb(238, 208, 170);
+}
+
+body {
+    margin: 0;
+}
+
+.fon{
+    filter: blur(4px);
+}
+.glav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.knopki{
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.284);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+.kn{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    transition: 0.2s;
+    font-weight: bold;
+}
+.kn:hover {
+    transform: scale(1.2);
+}
+.kno{
+    width: 13%;
+}
+.knop{
+    text-align: center;
+}
+.big{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.otkr{
+    font-size: 20px;
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    color: #201f1f;
+    background-color: rgba(203, 167, 139, 0.681);
+    transition: 0.2s;
+}
+.otkr:hover{
+    box-shadow: 2px 4px #000000;
+    transform: scale(1.2);
+}
+.privet{
+    font-size: 70px;
+    color: rgb(30, 29, 29);
+    margin-bottom: 30%;
+    
+}
+.vhod{
+    background: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 65px;
+    color:rgb(203, 167, 139);  
+    border-radius: 40px;  
+    transition: 0.2s;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+
+}
+.vhod:hover {
+    transform: scale(1,1.3);
+    background-color: rgba(255, 247, 223, 0.534);
+    color: #000000;
+}
+.cat{
+    position: absolute;
+    transition: 0.2s;
+    width:32%;
+}
+.cat:hover{
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.638));
+}
+span{
+    color: rgb(177, 68, 41);
+}
+.glav2{
+    width: 100%;
+    height: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 208, 170);
+}
+.onas{
+    margin-left: 45%;
+    font-size: 70px;
+    color: #201f1f;
+    transition: 0.2s;
+}
+.onas:hover{
+     box-shadow: 2px 2px 2px 2px #826054;
+    
+}
+.opis{
+    margin-left: 5%;
+    font-size: 40px;
+    color: rgb(47, 35, 25);
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.kart_onas{
+    float: left;
+    width: 30%;
+    height:90% ;
+
+}
+.a2{
+    margin-left: 10%;
+}
+.a1,.a2,.kart_onas:hover{
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+.krt{
+    margin: auto;
+
+}
+.karta{
+    width: 900px;
+    height: 500px;
+}
+.kartatext{
+    font-size: 40px;
+}
+footer{
+    background-color: rgb(47, 35, 25);
+}
+.down{
+    color:rgb(203, 167, 139); 
+    font-size: 30px;
+}
+.seti{
+    display: flex;
+}
+.vk{
+    width: 30px;
+    height: 30px;
+}
+.vk:hover{
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
+.gog{
+    width: 30px;
+    height: 30px;
+}
+.gog:hover{
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
+.tg{
+    width: 30px;
+    height: 30px;
+}
+.tg:hover{
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
+@font-face {
+    font-family: "Bergamasco.ttf"; 
+    src: url("ofont.ru_Bergamasco.ttf")
+  } 
+@media(max-width:1000px){
+    .otkr{
+        font-size: 10px;}
+    .privet{
+        font-size: 35px;
+        margin-bottom: 25%;
+        }
+    .big{
+        position: absolute;
+        top: 0%;
+        height: 50%;
+    }
+    .vhod{
+        font-size: 30px;
+    }
+    .kno{
+        width: 25%;
+    }
+    .onas{
+        font-size: 40px;
+    }
+    .opis{
+        font-size: 20px;
+    }
+    .cat{
+        width:25%;
+    }
+    .karta{
+        width: 300px;
+        height: 100px;
+    }
+    .down{
+        color:rgb(203, 167, 139); 
+        font-size: 20px;
+    }
+    .fon{
+        width: 150%;
+    }
+    .knop{
+        font-size: 10px;
+    }
+    .kartatext{
+        font-size: 20px;
+    }
+}
