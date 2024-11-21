@@ -1,0 +1,114 @@
+html{
+    cursor: pointer;
+    font-family: "Bergamasco.ttf";
+    overflow-x: hidden;
+    background-color:rgb(238, 208, 170);
+}
+
+body {
+    margin: 0;
+}
+.knopki{
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.284);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+.kn{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    transition: 0.2s;
+    font-weight: bold;
+}
+.kn:hover {
+    transform: scale(1.2);
+}
+.kno{
+    width: 13%;
+}
+.knop{
+    text-align: center;
+}
+
+.fon{
+    filter: blur(4px);
+}
+.all{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(238, 208, 170);
+}
+.zag{
+    font-size: 70px;
+    margin-top: 7%;
+    position: absolute;
+    transition: 0.2s;
+}
+.zag:hover {
+    box-shadow: 2px 2px 2px 2px #826054;
+}
+.play{
+    width: fit-content;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color:  rgb(177, 68, 41);
+    border-radius: 50px;
+}
+.song{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color:  rgb(177, 68, 41);
+    border-radius: 50px;
+    transition: 0.2s;
+
+   
+}
+.song:hover{
+    box-shadow: 2px 4px #000000;
+    transform: scale(1.2);
+}
+.catt{
+    position: absolute;
+    left: 80%;
+    top: 150vh;
+}
+.catt:hover{
+    filter: drop-shadow(0 0 5px rgba(111, 56, 56, 0.5));
+}
+.sound{
+    position: absolute;
+    left: 5%;
+    width: 15%;
+    top: 10%;
+}
+.sound:hover{
+    filter: drop-shadow(0 0 5px rgba(111, 56, 56, 0.5));
+}
+@font-face {
+    font-family: "Bergamasco.ttf"; 
+    src: url("ofont.ru_Bergamasco.ttf")
+} 
+@media(max-width:1000px){
+    .zag{
+        font-size: 40px;
+        margin-top: 10%;
+    }
+    .kno{
+        width: 25%;
+    }
+    .knop{
+        font-size: 10px;
+    }
+    .play{
+        margin-top: 20%;
+    }
+}

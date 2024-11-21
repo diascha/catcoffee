@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Bergamasco.ttf"; 
+    src: url("ofont.ru_Bergamasco.ttf")
+  } 
+html{
+    cursor: pointer;
+    font-family: "Bergamasco.ttf";
+    overflow-x: hidden;
+    background-color:rgb(238, 208, 170);
+}
+
+body {
+    margin: 0;
+}
+.knopki{
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.284);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+.kn{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    transition: 0.2s;
+    font-weight: bold;
+}
+.kn:hover {
+    transform: scale(1.2);
+}
+.kno{
+    width: 13%;
+}
+.knop{
+    text-align: center;
+}
+.zag{
+    font-size: 70px;
+    margin-top: 7%;
+    transition: 0.2s;
+}
+.zag:hover {
+    box-shadow: 2px 2px 2px 2px #826054;
+}
+.ak{
+    width: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.lol{
+    width: 100vw;
+}
+.taxi{
+    width: 50vw;
+}
+@media(max-width:1000px){
+    .kno{
+        width: 25%;
+    }
+    .knop{
+        font-size: 10px;
+    }
+    .zag{
+        font-size: 40px;
+        margin-top: 20%;
+    }
+}
